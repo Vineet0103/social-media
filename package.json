@@ -9,14 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/auth-helpers-react": "^0.5.0",
+    "@supabase/supabase-js": "^2.43.4",
+    "autoprefixer": "^10.4.19",
+    "javascript-time-ago": "^2.5.10",
+    "next": "14.2.4",
     "react": "^18",
+    "react-clickout-handler": "^1.2.1",
     "react-dom": "^18",
-    "next": "14.2.4"
+    "react-spinners": "^0.13.8",
+    "react-time-ago": "^7.3.3"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^8",
-    "eslint-config-next": "14.2.4"
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4"
   }
 }
