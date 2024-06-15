@@ -265,6 +265,11 @@ export default function ProfilePage() {
                         Cancel
                       </button>
                     )}
+                    {/* {!isMyUser && (
+                      <button onClick={() => setEditMode(false)} className="inline-flex mx-1 gap-1 bg-white rounded-md shadow-sm shadow-gray-500 py-1 px-2">
+                        Add friend
+                      </button>
+                    )} */}
                   </div>
                 </div>
               </div>
